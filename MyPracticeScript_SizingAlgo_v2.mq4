@@ -32,6 +32,6 @@ void OnStart()
       Lots = NormalizeDouble(Lots, 2); // Round to 2 decimal place
    }
    
-  Comment(Lots, AccountBalance()); 
+  Comment("Lots: ", Lots, " | Account Balance: ", AccountBalance()); 
   }
 //+------------------------------------------------------------------+
